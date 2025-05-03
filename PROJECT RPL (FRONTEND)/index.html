@@ -1,33 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>IPB Digitani</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IPB Digitani</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div class="background">
-        <div class="login-box">
-          <img src="image 11.png" alt="Logo Digitani" class="logo" />
-          <form>
-            <h3>Masuk</h3>
-            <input type="text" placeholder="Username" required />
-            <input type="password" placeholder="Kata Sandi" required />
-            <div class="options">
-              <label><input type="checkbox" /> Ingat akun saya</label>
-              <a href="#">Lupa Kata Sandi?</a>
-            </div>
-            <button type="submit">Login</button>
-            <p class="register">Belum punya akun ? <a href="#">Daftar Akun</a></p>
-          </form>
-          
+  <header>
+    <div class="logo">IPB DIGITANI <span>Lumbung Informasi Pertanian</span></div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Konsultani</a>
+      <a href="#">Artikel</a>
+      <a href="#">Forum Tani</a>
+    </nav>
+    <div class="user-info">
+      <span class="notification">🔔</span>
+      <span class="user-name">Hannan Azhari Batubara</span>
+      <span class="user-role">Mahasiswa ▾</span>
+    </div>
+  </header>
+
+  <main>
+    <div class="search-bar">
+      <input type="text" placeholder="Cari Artikel" />
+      <button>🔍</button>
+    </div>
+
+    <section class="content">
+      <div class="headline">
+        <img src="HEADLINE.png" alt="Headline Image" />
         </div>
-        <footer>
-          <p>Syarat & Ketentuan</p>
-          <p>Copyright © 2020 DIGITANI All Rights Reserved.</p>
-        </footer>
       </div>
-      <script src="script.js"></script>
+
+      <div class="popular-articles">
+        <h3>Artikel Populer</h3>
+        <ul>
+          <li>Artikel Populer 1</li>
+          <li>Artikel Populer 2</li>
+          <li>Artikel Populer 3</li>
+          <li>Artikel Populer 4</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="sub-articles">
+      <div class="sub-article">
+        <img src="Tomato_je.jpg" alt="Tomat" />
+        <p>Budidaya Tomat yang Optimal</p>
+      </div>
+      <div class="sub-article">
+        <img src="pngtree-lettuce-vegetables-png-image_2543323.jpg" alt="Selada" />
+        <p>Hidroponik Selada di Rumah</p>
+      </div>
+      <div class="sub-article">
+        <img src="premium_photo-1679428402040-e3c93439ec13.jpg" alt="Greenhouse" />
+        <p>Panen Sayuran di Greenhouse</p>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
